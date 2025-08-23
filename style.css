@@ -80,3 +80,26 @@ body{
   color: #fff;
   padding: 5px;
 }
+
+.Quadro02{
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.Quadro02 h1{
+   font-size: 50px;
+}
+
+.image02{
+  width: 500px;
+  height: 550px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.forme02 input{
+  padding: 15px 20px;
+}
