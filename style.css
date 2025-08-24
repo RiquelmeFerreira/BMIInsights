@@ -8,9 +8,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: darkgreen;
+    display: flex;
     padding: 20px;
     margin: 20px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -24,7 +24,7 @@ body{
 .forme{
   background-color: #006400;
   color: #fff;
-  width: 500px;
+  width: 450px;
   height: 600px;
   text-align: center;
   justify-content: center;
@@ -81,6 +81,8 @@ body{
 .Quadro02{
   padding: 40px;
   margin-top: 60px;
+  text-align: center;
+  align-items: center;
 }
 
 .Quadro02 h1{
@@ -90,9 +92,6 @@ body{
 .image02{
   width: 450px;
   height: 550px;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .forme02{
@@ -115,4 +114,17 @@ body{
   border-radius: 10px;
   outline: none;
 }
+
+.forme02 [type="submit"]{
+  margin: 50px;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.forme02 [type="submit"]:hover{
+  background-color: #44a744;
+  transform: scale(1.05);
+}
+
   
