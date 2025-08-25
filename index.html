@@ -8,51 +8,40 @@
     <title>BMI Insight</title>
 </head>
 <body>
-    <main>
-        <div class="face">
-            
-            <form action="">
-              <h1>BMI INSIGHT</h1>
-            </form>
+    <div class="interface">
+        <h1>BMI INSIGHT</h1>
+            <p>O site permitirá que os usuários calculem seu Índice de Massa Corporal (IMC) e também determine seu pace em corridas de 3 km, 5 km e 10 km. Com base no pace informado, o sistema apresentará uma avaliação do condicionamento físico atual do usuário.</p>
+        <div class="Q1">
+            <div class="img01">
+                <img src="source/image/weights-animate (1).svg" alt="">
+            </div>
 
-        <div class="Quadro">    
-            <div class="image">
-                <img src="source/image/weights-animate (1).svg">
-
-            <div class="forme">
-                
-                <form id="formulario">
-                <input type="text" id="peso" placeholder="Peso(Kg):" required><br>
-                <input type="text" id="altura" placeholder="Altura(m):" required><br>
-                <input type="submit" value="Calcular o IMC">
-                
-            </form>
-
-                <h3>Seu IMC = </h3>
-                    <a href="#"><p>Mais informações sobre seu IMC</p> <i class="bi bi-arrow-up-right-square-fill"></i></a>
-             </div>
-                
-        <div id="resultado"></div>
-
-        <div class="Quadro02">
-            <h1>PACE INSIGHT</h1>
-              <div class="image02">
-                <img src="source/image/fitness-tracker-animate.svg">
-              </div>
-            
-
-        <form id="formulario02">
-            <div class="forme02">
-                <input type="text" id="distacia" placeholder="Distância(Km):" required>
-                <input type="text" id="tempo" placeholder="Tempo(Min)">
-                <input type="submit" value="Calcular Pace">
-            </form>
-
-            <h3>Seu Pace = </h3>
-            <a href="#"><p>Mais informações sobre seu IMC</p> <i class="bi bi-arrow-up-right-square-fill"></i></a>           
+        <form class="IMC">
+            <label>Peso(Km):</label>
+            <input type="text" id="peso" required>
+            <label>Altura(m):</label>
+            <input type="text" id="altura" required>
+            <input type="submit" value="Calcular IMC">
+        </form>
+            <h3>Seu IMC = </h3>
+            <a href="#"><p>Para mais informações sobre seu IMC</p><i class="bi bi-arrow-up-right-square-fill"></i></a>
         </div>
-        </div>  
-    </main>
+            <h1>PACE INSIGHT</h1>
+        <div class="Q2">
+            <div class="img02">
+                <img src="source/image/fitness-tracker-animate.svg" alt="">
+            </div>
+        
+        <form class="PACE">
+            <label>Distância(Km):</label>
+            <input type="text" id="Distancia" required>
+            <label>Tempo(Min):</label>
+            <input type="text" id="tempo">
+        </form>
+            <h3>Seu Pace = </h3>
+            <a href="#"><p>Para mais informações sobre seu Pace</p><i class="bi bi-arrow-up-right-square-fill"></i></a>
+        </div>
+    </div>
       <script src="script.js"></script>
 </body>
 </html>
