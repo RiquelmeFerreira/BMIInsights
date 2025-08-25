@@ -8,7 +8,34 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: darkgreen;
-    display: flex;
     padding: 20px;
     margin: 20px;
+}
+h1{
+  font-size: 55px;
+  text-align: center;
+}
+p{
+  font-size: 17px;
+  text-align: center;
+  padding: 15px;
+}
+.interface{
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+}
+.img01{
+  width: 450px;
+  height: 450px;
+}
+.img02{
+  width: 450px;
+  height: 450px;
+}
+.Q1{
+  width: 70%;
+}
+.Q2{
+  width: 70%;
 }
