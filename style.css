@@ -22,20 +22,59 @@ p{
 }
 .interface{
   display: flex;
+  text-align: center;
   padding: 20px;
   margin: 20px;
 }
-.img01{
-  width: 450px;
-  height: 450px;
-}
-.img02{
+.img01, .img02{
   width: 450px;
   height: 450px;
 }
 .Q1{
   width: 70%;
+  padding: 80px;
+  flex-direction: column;
 }
 .Q2{
   width: 70%;
+  padding: 80px;
+  flex-direction: column;
 }
+.IMC input{
+  text-align: center;
+  padding: 15px 45px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.IMC input[type="submit"]{
+  padding: 15px 25px;
+  background-color: #006400;
+  cursor: pointer;
+}
+.IMC input[type="submit"]:hover{
+  transform: scale(1.05);
+  background-color: #fff;
+}
+.PACE input{
+  text-align: center;
+  padding: 15px 45px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.PACE input[type="submit"]{
+  padding: 15px 25px;
+  background-color: #006400;
+  font: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+.PACE input[type="submit"]:hover{
+  transform: scale(1..05);
+  background-color: #fff;
+}
+
+
