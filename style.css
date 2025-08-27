@@ -28,7 +28,7 @@ p{
 }
 .interface h3{
   color: #fff;
-  padding: 60px;
+  padding: 80px;
   margin: 20px;
 }
 .interface a{
@@ -38,6 +38,7 @@ p{
 .img01, .img02{
   width: 450px;
   height: 450px;
+  margin: auto;
 }
 .Q1{
   width: 70%;
@@ -63,30 +64,32 @@ p{
 }
 .IMC input{
   text-align: center;
-  padding: 15px 45px;
+  padding: 15px 50px;
   border: none;
-  font-weight: 700;
   outline: none;
   border-radius: 10px;
-  margin-top: 20px;
+  margin: auto;
+  display: flex;
 }
 .IMC input[type="submit"]{
   padding: 15px 25px;
   background-color: #fff;
   cursor: pointer;
+  font-size: 15px;
   font-weight: 700;
 }
 .IMC input[type="submit"]:hover{
   transform: scale(1.05);
-  background-color: #006400;
+  background-color: #29bd29;
 }
 .PACE input{
   text-align: center;
-  padding: 15px 45px;
+  padding: 15px 50px;
   border: none;
   outline: none;
   border-radius: 10px;
-  margin-top: 20px;
+  display: flex;
+  margin: auto;
 }
 .PACE input[type="submit"]{
   padding: 15px 25px;
@@ -97,7 +100,7 @@ p{
 }
 .PACE input[type="submit"]:hover{
   transform: scale(1.05);
-  background-color: #006400;
+  background-color: #29bd29;
 }
 
 
