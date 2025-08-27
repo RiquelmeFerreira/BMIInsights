@@ -17,8 +17,12 @@ h1{
 }
 p{
   font-size: 17px;
+  font-weight: 700;
   text-align: center;
   padding: 15px;
+}
+span{
+  color: #fff;
 }
 .interface{
   display: flex;
@@ -28,17 +32,21 @@ p{
 }
 .interface h3{
   color: #fff;
-  padding: 80px;
+  padding: 10px;
   margin: 20px;
 }
 .interface a{
   color: #fff;
   padding: 20px;
+  text-decoration: none;
+}
+.interface i{
+  text-align: center;
 }
 .img01, .img02{
   width: 450px;
   height: 450px;
-  margin: auto;
+  margin: 30px auto;
 }
 .Q1{
   width: 70%;
@@ -52,24 +60,26 @@ p{
 }
 .IMC{
   background-color: #006400;
-  width: 450px;
-  height: 500px;
+  width: 480px;
+  height: 550px;
   border-radius: 15px;
+  padding: 10px;
 }
 .PACE{
   background-color: #006400;
-  width: 450px;
-  height: 500px;
+  width: 460px;
+  height: 550px;
   border-radius: 15px;
+  padding: 10px;
 }
 .IMC input{
   text-align: center;
-  padding: 15px 50px;
+  padding: 15px 70px;
   border: none;
   outline: none;
   border-radius: 10px;
-  margin: auto;
   display: flex;
+  margin: 50px auto;
 }
 .IMC input[type="submit"]{
   padding: 15px 25px;
@@ -77,6 +87,7 @@ p{
   cursor: pointer;
   font-size: 15px;
   font-weight: 700;
+  margin-top: 50px;
 }
 .IMC input[type="submit"]:hover{
   transform: scale(1.05);
@@ -84,12 +95,12 @@ p{
 }
 .PACE input{
   text-align: center;
-  padding: 15px 50px;
+  padding: 15px 70px;
   border: none;
   outline: none;
   border-radius: 10px;
   display: flex;
-  margin: auto;
+  margin: 50px auto;
 }
 .PACE input[type="submit"]{
   padding: 15px 25px;
@@ -97,10 +108,23 @@ p{
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
+  margin-top: 50px;
 }
 .PACE input[type="submit"]:hover{
   transform: scale(1.05);
   background-color: #29bd29;
+}
+::placeholder{
+  font-size: 15px;
+  color: #006400;
+}
+.Q1 p{
+  font-weight: 500;
+  font-size: 17px;
+}
+.Q2 p{
+  font-weight: 500;
+  font-size: 17px;
 }
 
 
