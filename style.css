@@ -6,7 +6,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color: #18181b;
     color: darkgreen;
     padding: 20px;
     margin: 20px;
@@ -21,6 +21,9 @@ p{
   text-align: center;
   padding: 15px;
 }
+label{
+  color: #fff;
+}
 span{
   color: #fff;
 }
@@ -31,12 +34,12 @@ span{
   margin: 20px;
 }
 .interface h3{
-  color: #fff;
+  color: #006400;
   padding: 10px;
   margin: 20px;
 }
 .interface a{
-  color: #fff;
+  color: #006400;
   padding: 20px;
   text-decoration: none;
 }
@@ -49,7 +52,7 @@ span{
   margin: 30px auto;
 }
 .Q1{
-  width: 70%;
+  width: 80%;
   padding: 80px;
   flex-direction: column;
 }
@@ -59,15 +62,15 @@ span{
   flex-direction: column;
 }
 .IMC{
-  background-color: #006400;
-  width: 480px;
+  background-color: #262626;
+  width: 450px;
   height: 550px;
   border-radius: 15px;
   padding: 10px;
 }
 .PACE{
-  background-color: #006400;
-  width: 460px;
+  background-color: #262626;
+  width: 450px;
   height: 550px;
   border-radius: 15px;
   padding: 10px;
@@ -91,7 +94,7 @@ span{
 }
 .IMC input[type="submit"]:hover{
   transform: scale(1.05);
-  background-color: #29bd29;
+  background-color: #006400;
 }
 .PACE input{
   text-align: center;
@@ -112,7 +115,7 @@ span{
 }
 .PACE input[type="submit"]:hover{
   transform: scale(1.05);
-  background-color: #29bd29;
+  background-color: #006400;
 }
 ::placeholder{
   font-size: 15px;
