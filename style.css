@@ -5,7 +5,32 @@
 body{
     background-color: #18181b;
     color: #006400;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
 }
-
+.q1 h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.q1 h1 span{
+    color: #fff;
+}
+.q1 p{
+    font-weight: 600;
+    padding: 10px;
+}
+.img{
+    width: 650px;
+    height: 650px;
+    text-align: center;
+}
+.q1 input{
+    text-align: center;
+    color: #006400;
+    display: flex;
+}
 
 
