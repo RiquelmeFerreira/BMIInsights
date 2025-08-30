@@ -26,11 +26,75 @@ body{
     width: 650px;
     height: 650px;
     text-align: center;
+    margin: auto;
 }
 .q1 input{
     text-align: center;
     color: #006400;
     display: flex;
+    padding: 15px 85px;
+    border: none;
+    border-radius: 10px;
+    margin: 40px auto;
+    outline: none;
+}
+.q1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.q1 i{
+    color: #006400;
+    text-align: center;
+}
+::placeholder{
+    color: #006400;
+}
+.imc{
+    background-color: #262626;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.imc h3{
+    font-size: 25px;
+    padding: 15px;
+}
+.imc a{
+    padding: 30px;
+}
+.fim{
+    display: block;
+}
+.rodape{
+    display: flex;
+    margin: auto;
+}
+.rodape a{
+    text-decoration: none;
+    color: #006400;
+    margin: auto;
+}
+.rodape h6{
+    font-size: 15px;
+    padding: 20px;
+}
+.rodape h6:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+.social{
+    padding: 20px;
+}
+.social i{
+   color: #fff;
+   padding: 20px;
+   font-size: 22px;
+   margin: auto;
+}
+.social i:hover{
+    color: #006400;
+    transform: scale(1.05);
 }
 
 
