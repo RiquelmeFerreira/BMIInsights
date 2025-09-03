@@ -96,5 +96,11 @@ body{
     color: #006400;
     transform: scale(1.05);
 }
-
+footer h1{
+    font-size: 100px;
+    padding: 40px;
+}
+footer span{
+    color: #fff;
+}
 
