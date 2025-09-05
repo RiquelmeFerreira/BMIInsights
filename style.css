@@ -52,7 +52,7 @@ body{
 .imc{
     background-color: #262626;
     width: 500px;
-    height: 600px;
+    height: 500px;
     border-radius: 10px;
     margin: 40px auto;
 }
@@ -67,10 +67,14 @@ body{
 }
 .imc h3{
     font-size: 25px;
-    padding: 15px;
+    padding: 20px;
+}
+.imc span{
+    font-size: 15px;
+    margin: auto;
 }
 .imc a{
-    padding: 30px;
+    margin: auto;
 }
 .fim{
     display: block;

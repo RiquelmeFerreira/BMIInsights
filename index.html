@@ -35,11 +35,10 @@
                                 <span></span>
                             </div>
                         </div>
-                         </div>
                          <div id="more">
-                            <a href="https://www.msdmanuals.com/pt/profissional/multimedia/table/%C3%ADndice-de-massa-corporal-imc"><p>Para mais informações sobre o IMC</p><i class="bi bi-arrow-up-right-square-fill"></i></a>
+                            <a href="https://www.msdmanuals.com/pt/profissional/multimedia/table/%C3%ADndice-de-massa-corporal-imc"><p>Para mais informações sobre</a>
                          </div>
-                        </div>
+                    </div>
                         <hr>
                     </div>
                 </div>
@@ -66,5 +65,26 @@
     <hr>
     <h1>BMI <span>INSIGHT</span></h1>
     </footer>
+    <script>
+        const form = document.getElementsByName('imc');
+
+form.addEventListener('submit', function(event){
+    event.preventDefault();
+
+    const peso = document.getElementById('peso').value;
+    const altura = document.getElementById('altura').value;
+
+    const imc = (peso / (altura * altura)). toFixed(2);
+    let description = '';
+
+    document.getElementById('infos').classListist.remove('hidden');
+
+    if (imc < 18.5){
+        description = 'Abaixo do peso'
+    }
+    document.getElementById('description').textContent = 'description';
+
+});
+    </script>
 </body>
 </html>

@@ -1,10 +1,20 @@
-let form = document.getElementsByName('imc');
+const form = document.getElementsByName('imc');
 
 form.addEventListener('submit', function(event){
     event.preventDefault();
 
-    let peso = document.getElementById('peso').value;
-    let altura = document.getElementById('altura').value;
+    const peso = document.getElementById('peso').value;
+    const altura = document.getElementById('altura').value;
 
-    let imc = (peso / (altura * altura)). toFixed(2);
+    const imc = (peso / (altura * altura)). toFixed(2);
+    let description = '';
+
+    document.getElementById('infos').classListist.remove('hidden');
+
+    if (imc < 18.5){
+        description = 'Abaixo do peso'
+    }
+    value.textContent = imc.replace('.',',');
+    document.getElementById('description').textContent = 'description';
+
 });
