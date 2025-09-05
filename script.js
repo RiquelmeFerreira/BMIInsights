@@ -13,7 +13,19 @@ form.addEventListener('submit', function(event){
 
     if (imc < 18.5){
         description = 'Abaixo do peso'
+    } else if (imc >= 18.5 && imc <= 24.5){
+        description = 'Parabéns! Peso ideal';
+    } else if (imc > 25 && imc <= 30){
+        description = 'Cuidado! você com Sobrepeso';
+    } else if (imc > 30 && imc <= 35){
+        description = 'Cuidado! você está com Obesidade moderada';
+    } else if (imc > 35 && imc <= 40){
+        description = 'Cuidado! Você está com Obesidade severa';
+    } else{
+        description = 'Cuidado! Você está com Obesidade Morbida';
     }
+
+
     value.textContent = imc.replace('.',',');
     document.getElementById('description').textContent = 'description';
 
