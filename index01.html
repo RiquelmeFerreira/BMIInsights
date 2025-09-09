@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style01.css">
+    <link rel="stylesheet" href="script.js">
+    <title>BMI-INSIGHT</title>
+</head>
+<body>
+    <div class="cabeçalho">
+    <h1>BMI-INSIGHT</h1>
+    <p>Bem-vindo ao BMI-INSIGHT. Insira seu peso e altura para obter seu Índice de Massa Corporal e a faixa correspondente, com orientações rápidas para próximos passos. Seus dados são protegidos e usados apenas para cálculo. Observação: o IMC é uma ferramenta de triagem e não substitui avaliação médica</p>
+    <img src="source/image/weights-animate (2).svg">
+    </div>
+    <div class="container">
+        <h2>Calcule aqui:</h2>
+        <form  id="imc-form">
+            <div class="form-inputs">
+                <div class="form-control">
+                    <label for="height">Altura:</label>
+                    <input type="text" name="height" id="height" placeholder="Exemplo: 1.75">
+                </div>
+                <div class="form-control">
+                    <label for="weight">Peso:</label>
+                    <input type="text" name="weight" id="weight" placeholder="Exemplo: 80.5">
+                </div>
+            </div>
+            <div class="action-control">
+                <button id="calc-btn">Calcular</button>
+                <button id="clean-btn">Limpar</button>
+            </div>
+        </form>
+
+    </div>
+    <div class="results container">
+        <p id="imc-number">Seu IMC: <span></span></p>
+        <p id="imc-info">Situação Atual: <span></span></p>
+        <h3>Confira as Classificação</h3>
+    </div>
+</body>
+</html>
