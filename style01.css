@@ -4,3 +4,103 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    background-color: #090e22;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.hide{
+    display: none !important;
+}
+.container{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1d33;
+    padding: 2rem;
+    border-radius: 10px;
+}
+/* imc form*/
+#calc-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: #ccc;
+}
+.form-control input{
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.action-control{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+button{
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    background-color: #f44236;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+}
+button:hover{
+    opacity: 1.1;
+}
+#clean-btn{
+    background-color: #444;
+}
+/*table*/
+#results-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#imc-number{
+    font-size: 2.4rem;
+    margin: .6rem;
+}
+#imc-info{
+    font-size: 1.4rem;
+    color: #ccc;
+}
+#results-container h3{
+    margin-top: 1rem;
+    color: #dfdfdf;
+}
+#imc-table{
+    margin: 1.5rem 0;
+    font-size: .8rem;
+}
+.table-header{
+    font-weight: bold;
+    color: #ccc;
+}
+.table-header
+.table-data{
+    display: flex;
+    justify-content: space-between;
+}

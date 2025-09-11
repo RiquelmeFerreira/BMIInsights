@@ -9,13 +9,9 @@
     <title>BMI-INSIGHT</title>
 </head>
 <body>
-    <div class="cabeçalho">
-    <h1>BMI-INSIGHT</h1>
-    <p>Bem-vindo ao BMI-INSIGHT. Insira seu peso e altura para obter seu Índice de Massa Corporal e a faixa correspondente, com orientações rápidas para próximos passos. Seus dados são protegidos e usados apenas para cálculo. Observação: o IMC é uma ferramenta de triagem e não substitui avaliação médica</p>
-    <img src="source/image/weights-animate (2).svg">
-    </div>
     <div class="container">
-        <h2>Calcule aqui:</h2>
+        <div id="calc-container" class="hide">
+        <h2>BMI INSIGHT</h2>
         <form  id="imc-form">
             <div class="form-inputs">
                 <div class="form-control">
@@ -32,11 +28,10 @@
                 <button id="clean-btn">Limpar</button>
             </div>
         </form>
-
     </div>
-    <div class="results container">
-        <p id="imc-number">Seu IMC: <span></span></p>
-        <p id="imc-info">Situação Atual: <span></span></p>
+    <div id="results-container" class="">
+        <p id="imc-number">Seu IMC: <span>25</span></p>
+        <p id="imc-info">Situação Atual: <span>Magreza</span></p>
         <h3>Confira as Classificação</h3>
         <div id="imc-table">
             <div class="table-header">
@@ -44,8 +39,14 @@
                 <h4>Classificação</h4>
                 <h4>Obesidade</h4>
             </div>
+             <div class="table-data">
+                <p>=18.5</p>
+                <p>Magreza</p>
+                <p>0</p>
+            </div>
         </div>
         <button id="back-btn">Voltar</button>
+    </div>
     </div>
 </body>
 </html>
