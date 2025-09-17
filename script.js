@@ -1,3 +1,6 @@
+const { createElement } = require("react");
+
+//Data
 const data = [
     {
       min: 0,
@@ -34,4 +37,42 @@ const data = [
       info:"Obesidade grave",
       obesity:"III",
     },
-]
+];
+
+//Seleção de Elemnetos
+
+let imctable = document.querySelector("#imc-table")
+
+let heightinput = document.querySelector("#height");
+let weightinput = document.querySelector("#weight");
+let calcbtn = document.querySelector("#calc-btn");
+let calcclean = document.querySelector("#calc-clean");
+
+//Funções
+
+function createtable(data){
+  data.forEach(element => {
+    let div = createElement("div")
+    div.classList.add("table-data")
+
+    let classification = document.createElement("p");
+    classification.innerText = item.classification;
+
+    let info = document.createElement("p");
+    info.innerText = item.info;
+
+    let obesity = document.createElement("p");
+    obesity.innerText = item.obesity;
+
+    div.appendChild(classification);
+    div.appendChild(info);
+    div.appendChild(obesity);
+
+    imctable.appendChild(div);
+
+  });
+}
+
+//Inicialiazação
+ createtable(data);
+//Eventos
