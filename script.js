@@ -1,7 +1,7 @@
-const { createElement } = require("react");
+var { createElement } = document.createElement
 
 //Data
-const data = [
+var data = [
     {
       min: 0,
       max: 18.4,
@@ -46,7 +46,7 @@ let imctable = document.querySelector("#imc-table")
 let heightinput = document.querySelector("#height");
 let weightinput = document.querySelector("#weight");
 let calcbtn = document.querySelector("#calc-btn");
-let calcclean = document.querySelector("#calc-clean");
+let calcclean = document.querySelector("#clean-btn");
 
 //Funções
 
@@ -76,3 +76,4 @@ function createtable(data){
 //Inicialiazação
  createtable(data);
 //Eventos
+
